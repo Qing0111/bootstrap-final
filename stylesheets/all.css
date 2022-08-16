@@ -7412,10 +7412,6 @@ textarea.form-control-lg {
   height: 100vh !important;
 }
 
-.vh-75 {
-  height: 71vh !important;
-}
-
 .min-vh-100 {
   min-height: 100vh !important;
 }
@@ -14796,10 +14792,6 @@ textarea.form-control-lg {
   height: 100vh !important;
 }
 
-.vh-75 {
-  height: 71vh !important;
-}
-
 .min-vh-100 {
   min-height: 100vh !important;
 }
@@ -18314,47 +18306,14 @@ textarea.form-control-lg {
   height: 600px;
   background-size: cover;
   background-position: center;
+  background-image: url(../image/home1.jpg);
 }
 
 @media (max-width: 575.98px) {
   .header {
-    background-size: cover;
-    background-position: center;
+    background-image: url(../image/home2.jpg);
   }
 }
-.more {
-  color: black;
-}
-
-.pic-hover {
-  display: none;
-}
-
-.cardhover:hover .more {
-  color: #ffc107;
-}
-.cardhover:hover .pic-hover {
-  display: block;
-}
-.cardhover:hover .pic {
-  display: none;
-}
-
-.deco-line {
-  padding-left: 1rem;
-  position: relative;
-}
-
-.deco-line::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 3px;
-  background-color: #0dcaf0;
-}
-
 .btn-special:hover {
   box-shadow: 0px 3px 3px #000;
 }

@@ -206,10 +206,7 @@ $utilities: map-merge(
     "viewport-height": (
       property: height,
       class: vh,
-      values: (
-        100: 100vh,
-        75:71vh
-      )
+      values: (100: 100vh)
     ),
     "min-viewport-height": (
       property: min-height,
