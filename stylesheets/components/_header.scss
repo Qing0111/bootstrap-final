@@ -1,0 +1,29 @@
+
+.header{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 575.98px) {
+    .header{
+        background-size: cover;
+        background-position: center;
+    }
+}
+.more{
+    color: black;
+}
+.pic-hover{
+    display: none;
+}
+.cardhover:hover{
+    .more{
+        color: $warning;
+    }
+    .pic-hover{
+        display: block;
+    }
+    .pic{
+        display: none;
+    }
+}

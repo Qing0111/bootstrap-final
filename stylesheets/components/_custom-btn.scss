@@ -1,0 +1,12 @@
+.btn-special:hover{
+    box-shadow: 0px 3px 3px #000;
+}
+
+.btn-color:hover{
+    color: $warning;
+}
+.btn-bg:hover{
+    background-color: $warning;
+    color: $dark;
+    border: 1px solid $warning;
+}

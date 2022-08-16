@@ -1,0 +1,13 @@
+.imgtext{
+    display: none;
+}
+.dogcard:hover{
+    transition: all 1s;
+    .imgop{
+        background:linear-gradient(to bottom,rgba(0,0,0,.1) 40%,rgba(0,0,0,.4) );
+    }
+    .imgtext{
+        display: block;
+    }
+    
+}
